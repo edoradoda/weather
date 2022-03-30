@@ -1,0 +1,156 @@
+body{
+    background: #fffff8;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+#app{
+    display: grid;
+    grid-auto-rows: minmax(150px, auto);
+    /* grid-template-columns:  */
+    height:auto;
+    /* background: #ece5e7; */
+    color: #b0b21c;
+    justify-content: center;
+    grid-gap: 1em;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    z-index: 1;
+    opacity: 1;
+    background-image: url('./images/backLogin.webp');
+}
+
+.holder{
+ 
+}
+
+.entry{
+    background: rgb(159 159 159 / 40%);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.feel {
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+}
+#entryHolder{
+
+}
+
+#date{
+
+}
+
+#temp{
+
+}
+
+#content{
+
+}
+
+.headline {
+
+}
+.title{
+
+}
+
+.boxZip {
+ display: flex;
+ gap: 10px
+}
+
+.boxZip select{
+ height: 60px;
+ background: #cddce0;
+ border: none;
+ border-radius: 3px;
+ padding: 5px;
+}
+
+.boxWeather {
+    color: #fff1f1;
+    font-size: 15px;
+    padding: 10px;
+}
+/*  Basic Styling To Override Default For Basic HTML Elements */
+label{
+    display:block;
+    font-size: 27px;
+}
+
+input{
+    display:block;
+    height: 60px;
+    width: 320px;
+    background:#cddce0;
+    color: #4b4315;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+    border-radius: 3px;
+}
+
+button{
+    width: 120px;
+    border-radius: 5px;
+    background: #b9d6a1;
+    color: #4b4315;
+    font-size: 26px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+    box-shadow: 2px 2px 1px #b8c7b6;
+}
+
+ button:hover {
+	background-color:#92b874;
+    box-shadow: 2px 2px 1px #a9c594;
+}
+ button:active {
+	position:relative;
+	top:1px;
+    transform: scale(0.85);
+    box-shadow: 3px 2px 25px 1px rgba(0,0,0,0.25);
+}
+
+h1{
+    font-size: 36px;
+}
+
+textarea{
+    background:#cddce0;
+    color: #4b4315;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    border-radius: 3px;
+}
+
+
+
+/* Reset style for HTML element on active to have no border*/
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+/* Style for Placeholder Text*/
+::placeholder { /* Firefox, Chrome, Opera */ 
+    color: #3d360e; 
+    font-family: 'Oswald', sans-serif;
+
+} 
+  
+:-ms-input-placeholder { /* Internet Explorer 10-11 */ 
+    color: #3d360e; 
+    font-family: 'Oswald', sans-serif;
+
+} 
+  
+::-ms-input-placeholder { /* Microsoft Edge */ 
+    color: #3d360e;  
+    font-family: 'Oswald', sans-serif;
+
+} 
